@@ -1,12 +1,12 @@
 # bits-please
 <img src="bilder/bits_please.png">
 
-##Einleitung
+## Einleitung
 
-###Challenge
+### Challenge
 Wie könnten Menschen in der„Smart HS Mannheim“durch deren intelligente Geräte und Objekte dabei unterstützt werden,angenehmer und spielerischer zu arbeiten?
 
-###Point of View
+### Point of View
 Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreativer zu gestalten. 
 
 
@@ -15,17 +15,17 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 ### Material
 ...
 
-###Werkzeuge
+### Werkzeuge
 ...
 
 
-##Bauanleitung
+## Bauanleitung
 
-###Tisch
+### Tisch
 ...
 
-###Gitter
+### Gitter
 ...
 
-###Elektronik
+### Elektronik
 ...
