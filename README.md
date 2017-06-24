@@ -1,5 +1,5 @@
 # bits-please
-<img src="bilder/bits_please.png">
+<img src="https://raw.githubusercontent.com/cbm-instructions/bits-please/master/Bilder/bits_please.png">
 
 ## Einleitung
 
