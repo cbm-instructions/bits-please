@@ -1,2 +1,2 @@
-Zum öffnen des Schaltplans wird das Tool "Fritzing" benötigt. 
+Zum öffnen und bearbeiten des Schaltplans wird das Tool "Fritzing" benötigt. 
 http://fritzing.org/download/ 
