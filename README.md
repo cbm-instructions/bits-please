@@ -4,7 +4,7 @@
 ## Einleitung
 Der PlayTable ist ein Unterhaltungs/Freizeit Gegenstand und  wurde von dem Team bits-please entwickelt. Es handelt sich hierbei um einen Kleintisch, der eine Matrix aus Pixel besitzt, die aufleuchten können und es können bis zu zwei Leuten mit dem Tisch interagieren. Der PlayTable lässt jedes Gamerherz höher schlagen und dient für den Stressabbau des Hochschul Alltags und den Zusammenschluss von Studierenden und Mitarbeitern.
  
-Der PlayTable kann klassische Arcade-Games wie Tetris oder PingPong aufweisen oder einfach nur als Dekoration für den Raum dienen, indem verschiedenste Bilder oder Animationen angezeigt werden
+Der PlayTable kann klassische Arcade-Games wie Tetris oder PingPong aufweisen oder einfach nur als Dekoration für den Raum dienen, indem verschiedenste Bilder oder Animationen angezeigt werden.
  
 Mit den zwei dazugehörigen Controllern macht das interagieren des Playtable gleich viel mehr Spaß!
 
@@ -21,12 +21,35 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 
 
 ## Material und Werkzeug
-
+ 
 ### Material
-...
-
+* Schrumpfschlauch
+* Diverse Kabel
+ 
 ### Werkzeuge
-...
+* Bohrer
+* Lötkolben
+* Heißluftgebläse
+* Heißklebepistole
+ 
+### Elektronik
+* Arduino mega
+* Netzteil
+* Stromkabel
+
+### Tisch
+* Holz
+* Spanplatte
+* Schrauben
+* 
+
+###Matrix
+* LED Rollen
+* Grid
+ 
+### Controller
+* 8x Buttons
+* Holz
 
 
 ## Bauanleitung
@@ -34,8 +57,11 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 ### Tisch
 ...
 
-### Gitter
+### Matrix
 ...
 
 ### Elektronik
+...
+
+### Code
 ...
