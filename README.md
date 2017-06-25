@@ -1,5 +1,5 @@
 # bits-please | PlayTable
-<img src="https://raw.githubusercontent.com/cbm-instructions/bits-please/master/Bilder/bits_please.png">
+<img src="https://raw.githubusercontent.com/cbm-instructions/bits-please/master/Bilder/bits_please.png" height="400" width="400">
 
 ## Einleitung
 Der PlayTable ist ein Unterhaltungs/Freizeit Gegenstand und  wurde von dem Team bits-please entwickelt. Es handelt sich hierbei um einen Kleintisch, der eine Matrix aus Pixel besitzt, die aufleuchten können und es können bis zu zwei Leuten mit dem Tisch interagieren. Der PlayTable lässt jedes Gamerherz höher schlagen und dient für den Stressabbau des Hochschul Alltags und den Zusammenschluss von Studierenden und Mitarbeitern.
@@ -31,16 +31,19 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 * Lötkolben
 * Heißluftgebläse
 * Heißklebepistole
+* Schraubendreher Kreuzschlitz 
+* Gehrungssäge
+* Stichsäge
  
 ### Elektronik
 * Arduino mega
-* Netzteil
-* Stromkabel
+* Netzteil (5v, 30A)
+* Stromkabel Schuko auf Kaltgerätestecker
 
 ### Tisch
-* Holz
-* Spanplatte
-* Schrauben
+* Vierkantholz 34mm x 34mm 
+* Spanplatte(65cmx65cm , Stärke 12mm)
+* Spaxschrauben
 * 
 
 ### Matrix
@@ -55,7 +58,34 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 ## Bauanleitung
 
 ### Tisch
-...
+1. Unebenen Enden des Vierkantholzes absägen
+
+<img src="Bilder/IMG_20170527_123424.jpg" height="300" width="300">
+
+2. Vierkantholz zu je 10 Stücken a 65 cm, mit einem möglichst feinen Sägeblatt, absägen. Achtung!! Erstes Stück als Messlatte für alle anderen Stücke verwenden.
+
+<img src="Bilder/IMG_20170527_121733.jpg" height="300" width="300">
+
+3. Grat an den Sägenenden jeweils mit Schmirgelpapier oder Feile 
+entfernen
+
+<img src="Bilder/IMG_20170527_123424.jpg" height="300" width="300">
+
+5. Vier Tischfüsse mithilfe der Bohrschablonevorbohren. Dazu am besten in Schraubstock einspannen, um senkrecht einbohren zu können.
+
+<img src="Bilder/IMG_20170527_165454.jpg" height="300" width="300">
+
+6. Vier Tischfüsse mit restlichen Stücken zu einem Rahmen verschrauben.
+
+<img src="Bilder/InkedIMG_20170520_222431_LI.jpg" height="300" width="300">
+
+7. Aussparung an den Ecken der Bodenplatte mit je 34mm x 34mm mithilfe einer Stichsäge aussägen.  
+
+<img src="Bilder/IMG_20170527_180003.jpg" height="300" width="300">
+
+8. Platte einpassen, eventuell die Ausparungen nachfeilen, und mit je 3 Schrauben pro Seite am Rahmen festschrauben.
+
+<img src="Bilder/InkedIMG_20170527_182555_LI.jpg" height="300" width="300">
 
 ### Matrix
 ...
