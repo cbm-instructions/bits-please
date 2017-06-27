@@ -15,47 +15,50 @@ Die Welt ist immer im wandel und entwickelt sich immer weiter. So kommen auch ne
  
 Weswegen wir uns für die Entwicklung eines “Smart Furniture” entschieden haben, der PlayTable.
 
-
 ### Point of View
 Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreativer zu gestalten. 
-
 
 ## Material und Werkzeug
  
 ### Material
 * Schrumpfschlauch
 * Diverse Kabel
+* Kabelbinder
+* Lötzinn
  
 ### Werkzeuge
 * Bohrer
 * Fräsbohrer 
 * Lötkolben
+* Abisolierzange
 * Heißluftgebläse
 * Heißklebepistole
 * Schraubendreher Kreuzschlitz 
 * Gehrungssäge
 * Stichsäge
 * Lasercutter
+* Seitenschneider
+* Schere
+* Teppichbodenmesser
  
 ### Elektronik
-* Arduino mega
+* Arduino Mega
 * Netzteil (5v, 30A)
 * Stromkabel Schuko auf Kaltgerätestecker
 
 ### Tisch
-* Vierkantholz 34mm x 34mm 
-* Spanplatte(65cmx65cm , Stärke 12mm)
+* Vierkantholz (34mm x 34mm)
+* Spanplatte(65cm x 65cm , Stärke 12mm)
+* Plexiglasplatte (65cm x 65cm,  Lichtdurchlässigkeit 79%)
 * Spaxschrauben
-* 
 
 ### Matrix
-* LED Stripes mit insgesamt 512 LED's auf 16 Stripes a 32 LED's aufgeteilt
-* Grid
+* Hochdichte Faserplatte (3m breit)
+* LED Stripes mit insgesamt 512 LED's auf 16 Stripes a' 32 LED's aufgeteilt
  
 ### Controller
+* Hochdichte Faserplatte (3m breit)
 * 8x Buttons
-* Holz
-
 
 ## Bauanleitung
 
@@ -94,7 +97,7 @@ entfernen
 ...
 
 ### Elektronik
-
+...
 
 ### Code
 ...
