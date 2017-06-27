@@ -94,6 +94,7 @@ entfernen
 <img src="Bilder/InkedIMG_20170527_182555_LI.jpg" height="300" width="300">
 
 ### Matrix
+<img src="Matrix/Zuschnitt_1.jpg" height="300" width="300">
 [Anfertigen der Matrix mit dem Lasercutter](https://github.com/cbm-instructions/bits-please/blob/master/Matrix/README.md)
 
 
