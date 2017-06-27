@@ -28,12 +28,14 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
  
 ### Werkzeuge
 * Bohrer
+* Fräsbohrer 
 * Lötkolben
 * Heißluftgebläse
 * Heißklebepistole
 * Schraubendreher Kreuzschlitz 
 * Gehrungssäge
 * Stichsäge
+* Lasercutter
  
 ### Elektronik
 * Arduino mega
@@ -47,7 +49,7 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 * 
 
 ### Matrix
-* LED Rollen
+* LED Stripes mit insgesamt 512 LED's auf 16 Stripes a 32 LED's aufgeteilt
 * Grid
  
 ### Controller
@@ -72,6 +74,7 @@ entfernen
 <img src="Bilder/IMG_20170527_123424.jpg" height="300" width="300">
 
 5. Vier Tischfüsse mithilfe der Bohrschablonevorbohren. Dazu am besten in Schraubstock einspannen, um senkrecht einbohren zu können.
+[Bohrschablone](https://github.com/cbm-instructions/bits-please/blob/master/Bilder/Bohrschablone.jpg)
 
 <img src="Bilder/IMG_20170527_165454.jpg" height="300" width="300">
 
@@ -91,7 +94,7 @@ entfernen
 ...
 
 ### Elektronik
-...
+
 
 ### Code
 ...
