@@ -25,6 +25,7 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 * Diverse Kabel
 * Kabelbinder
 * Lötzinn
+* Holzleim
  
 ### Werkzeuge
 * Bohrer
@@ -61,7 +62,6 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 * 8x Buttons
 * 14 Magneten (5mm x 2,5mm x 2,5mm)
 * 2 USB Kabel (2m)
-* 4 Kabelbinder
 
 ## Bauanleitung
 
