@@ -88,15 +88,11 @@ Anfertigen des Controllers: [Anleitung](https://github.com/cbm-instructions/bits
 ...
 
 ### Code
-Der Code für die Animationen und Spiele finden Sie unter den folgenen Links:
+Die verwendete .ino Datei gibt's hier: [CBM.ino](https://github.com/cbm-instructions/bits-please/blob/master/Code/CBM.ino)<br>
 
-**Animationen**<br>
+Wer nur die Umsetzungen der einzelnen Spiele möchte findet diese hier:<br>
 
 **Spiele**<br>
 * Pong: [Pong](https://github.com/cbm-instructions/bits-please/blob/master/Code/Pong/Pong)<br>
 * Tetris: [Tetris](https://github.com/cbm-instructions/bits-please/blob/master/Code/Tetris/Tetris)<br>  
 * Snake: [Snake](https://github.com/cbm-instructions/bits-please/blob/master/Code/Snake/Snake)<br>
-
-**Bilder**<br>
-
-
