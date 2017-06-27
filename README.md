@@ -4,7 +4,7 @@
 ## Einleitung
 Der PlayTable ist ein Unterhaltungs/Freizeit Gegenstand und  wurde von dem Team bits-please entwickelt. Es handelt sich hierbei um einen Kleintisch, der eine Matrix aus Pixel besitzt, die aufleuchten können und es können bis zu zwei Leuten mit dem Tisch interagieren. Der PlayTable lässt jedes Gamerherz höher schlagen und dient für den Stressabbau des Hochschul Alltags und den Zusammenschluss von Studierenden und Mitarbeitern.
  
-Der PlayTable kann klassische Arcade-Games wie Tetris oder PingPong aufweisen oder einfach nur als Dekoration für den Raum dienen, indem verschiedenste Bilder oder Animationen angezeigt werden.
+Der PlayTable kann klassische Arcade-Games wie Tetris oder Pong aufweisen oder einfach nur als Dekoration für den Raum dienen, indem verschiedenste Bilder oder Animationen angezeigt werden.
  
 Mit den zwei dazugehörigen Controllern macht das interagieren des Playtable gleich viel mehr Spaß!
 
@@ -93,7 +93,7 @@ Der Code für die Animationen und Spiele finden Sie unter den folgenen Links:
 **Animationen**<br>
 
 **Spiele**<br>
-* PingPong: [PingPong](https://github.com/cbm-instructions/bits-please/blob/master/Code/Pong/Pong.md)<br>
+* Pong: [Pong](https://github.com/cbm-instructions/bits-please/blob/master/Code/Pong/Pong.md)<br>
 * Tetris:   [Tetris](https://github.com/cbm-instructions/bits-please/blob/master/Code/Tetris/Tetris.md)<br>  
 * Snake:    [Snake](https://github.com/cbm-instructions/bits-please/blob/master/Code/Snake/Snake.md)<br>
 
