@@ -95,7 +95,7 @@ entfernen
 
 ### Matrix
 <img src="Matrix/Zuschnitt_1.jpg" height="300" width="300">
-[Anfertigen der Matrix mit dem Lasercutter](https://github.com/cbm-instructions/bits-please/blob/master/Matrix/README.md)
+Anfertigen der Matrix mit dem Lasercutter: [Anleitung](https://github.com/cbm-instructions/bits-please/blob/master/Matrix/README.md)
 
 
 ### Controller
