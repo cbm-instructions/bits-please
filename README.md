@@ -93,9 +93,9 @@ Der Code für die Animationen und Spiele finden Sie unter den folgenen Links:
 **Animationen**<br>
 
 **Spiele**<br>
-* Pong: [Pong](https://github.com/cbm-instructions/bits-please/blob/master/Code/Pong/Pong.md)<br>
-* Tetris:   [Tetris](https://github.com/cbm-instructions/bits-please/blob/master/Code/Tetris/Tetris.md)<br>  
-* Snake:    [Snake](https://github.com/cbm-instructions/bits-please/blob/master/Code/Snake/Snake.md)<br>
+* Pong: [Pong](https://github.com/cbm-instructions/bits-please/blob/master/Code/Pong/Pong)<br>
+* Tetris: [Tetris](https://github.com/cbm-instructions/bits-please/blob/master/Code/Tetris/Tetris)<br>  
+* Snake: [Snake](https://github.com/cbm-instructions/bits-please/blob/master/Code/Snake/Snake)<br>
 
 **Bilder**<br>
 
