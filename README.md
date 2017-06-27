@@ -98,16 +98,13 @@ entfernen
 
 <img src="Matrix/Matrix_1.jpg" height="300">
 
-Anfertigen der Matrix mit dem Lasercutter: [Bohrschablone](https://github.com/cbm-instructions/bits-please/blob/master/Matrix/README.md)
-[Vorgehen](https://github.com/cbm-instructions/bits-please/blob/master/Matrix/README.md)
-
+Anfertigen der Matrix mit dem Lasercutter: [Anleitung](https://github.com/cbm-instructions/bits-please/blob/master/Matrix/README.md)
 
 ### Controller
 
 <img src="Controller/fertig.jpg" height="300">
 
-Anfertigen des Controllers: [Bohrschablone](https://github.com/cbm-instructions/bits-please/blob/master/Controller/README.md)
-[Vorgehen](https://github.com/cbm-instructions/bits-please/blob/master/Controller/README.md)
+Anfertigen des Controllers: [Anleitung](https://github.com/cbm-instructions/bits-please/blob/master/Controller/README.md)
 
 ### Elektronik
 ...
