@@ -102,13 +102,13 @@ entfernen
 ### Code
 Der Code für die Animationen und Spiele finden Sie unter den folgenen Links:
 
-**Animationen**
+**Animationen**<br>
 
-**Spiele**
-PingPong: [PingPong](https://github.com/cbm-instructions/bits-please/blob/master/Code/Pong/Pong.md)
-Tetris:   [Tetris](https://github.com/cbm-instructions/bits-please/blob/master/Code/Tetris/Tetris.md)   
-Snake:    [Snake](https://github.com/cbm-instructions/bits-please/blob/master/Code/Snake/Snake.md)
+**Spiele**<br>
+PingPong: [PingPong](https://github.com/cbm-instructions/bits-please/blob/master/Code/Pong/Pong.md)<br>
+Tetris:   [Tetris](https://github.com/cbm-instructions/bits-please/blob/master/Code/Tetris/Tetris.md) <br>  
+Snake:    [Snake](https://github.com/cbm-instructions/bits-please/blob/master/Code/Snake/Snake.md)<br>
 
-**Bilder**
+**Bilder**<br>
 
 
