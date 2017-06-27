@@ -11,7 +11,7 @@ Mit den zwei dazugehörigen Controllern macht das interagieren des Playtable gle
 ### Challenge
 Die Welt ist immer im wandel und entwickelt sich immer weiter. So kommen auch neue Begriffe zu stande wie “Smart City”, der in aller Munde ist. Demzufolge soll es Universitäten geben die von denen man behaupten kann sie seien eine “Smart University”. Die Hochschule Mannheim soll natürlich auch mit der Zeit gehen, weswegen uns eine Challange gesetzt wurde.
  
-**Wie könnten Menschen in der„Smart HS Mannheim“durch deren intelligente Geräte und Objekte dabei unterstützt werden,angenehmer und spielerischer zu arbeiten?**
+**Wie könnten Menschen in der„Smart HS Mannheim“ durch deren intelligente Geräte und Objekte dabei unterstützt werden,angenehmer und spielerischer zu arbeiten?**
  
 Weswegen wir uns für die Entwicklung eines “Smart Furniture” entschieden haben, der PlayTable.
 
@@ -49,7 +49,7 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 ### Tisch
 * Vierkantholz (34mm x 34mm)
 * Spanplatte(65cm x 65cm , Stärke 12mm)
-* Plexiglasplatte (65cm x 65cm,  Lichtdurchlässigkeit 79%)
+* Plexiglasplatte (65cm x 65cm,Lichtdurchlässigkeit 79%)
 * Spaxschrauben
 
 ### Matrix
@@ -57,7 +57,7 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 * LED Stripes mit insgesamt 512 LED's auf 16 Stripes a' 32 LED's aufgeteilt
  
 ### Controller
-* Hochdichte Faserplatte (3m breit)
+* Hochdichte Faserplatte (3mm dick)
 * 8x Buttons
 
 ## Bauanleitung
