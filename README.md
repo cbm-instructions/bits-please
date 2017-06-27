@@ -100,4 +100,15 @@ entfernen
 ...
 
 ### Code
-...
+Der Code für die Animationen und Spiele finden Sie unter den folgenen Links:
+
+**Animationen**
+
+**Spiele**
+PingPong: [PingPong](https://github.com/cbm-instructions/bits-please/blob/master/Code/Pong/Pong.md)
+Tetris:   [Tetris](https://github.com/cbm-instructions/bits-please/blob/master/Code/Tetris/Tetris.md)   
+Snake:    [Snake](https://github.com/cbm-instructions/bits-please/blob/master/Code/Snake/Snake.md)
+
+**Bilder**
+
+
