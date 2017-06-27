@@ -26,6 +26,6 @@
 
 <img src="Matrizen_einsetzen.jpg" height="300">
 
-6. Zur idealen Diffusion zwei Brotpapierbahnen (weiß) zusammenkleben und zwischen die beiden Matrizen legen
+6. Zur idealen Diffusion zwei 55cm Brotpapierbahnen (weiß) zusammenkleben und zwischen die beiden Matrizen legen
 
 <img src="Diffusion.jpg" height="300">

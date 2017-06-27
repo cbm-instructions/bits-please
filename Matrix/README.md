@@ -16,7 +16,7 @@
 
 <img src="Einzelteile.jpg" height="300">
 
-4. Beide Matrizen zusammensetzen und an den Ecken mit Heißkleber verkleben
+4. Beide Matrizen zusammensetzen und an allen Eckpunkten mit Heißkleber verkleben
 
 <img src="Matrix_1.jpg" height="300">
 
