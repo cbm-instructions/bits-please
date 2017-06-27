@@ -53,12 +53,13 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 * Spaxschrauben
 
 ### Matrix
-* Hochdichte Faserplatte (3mm dick - 3 Platten a 60cm x 45cm)
+* 3x Hochdichte Faserplatte (3mm dick a 60cm x 45cm)
 * LED Stripes mit insgesamt 512 LED's auf 16 Stripes a' 32 LED's aufgeteilt
  
 ### Controller
-* Hochdichte Faserplatte (3mm dick)
+* Hochdichte Faserplatte (3mm dick a 60cm x 45cm)
 * 8x Buttons
+* 14 Magneten (5mm x 2,5mm x 2,5mm)
 
 ## Bauanleitung
 
@@ -94,13 +95,13 @@ entfernen
 <img src="Bilder/InkedIMG_20170527_182555_LI.jpg" height="300" width="300">
 
 ### Matrix
-<img src="Matrix/Zuschnitt_1.jpg" height="300">
+<img src="Matrix/Matrix_1.jpg" height="300">
 Anfertigen der Matrix mit dem Lasercutter: <br>
 [Vorgehen](https://github.com/cbm-instructions/bits-please/blob/master/Matrix/README.md)
 
 
 ### Controller
-<img src="Controller/Zuschnitt_1_Controller.jpg" height="300">
+<img src="Controller/fertig.jpg" height="300">
 Anfertigen des Controllers: <br>
 [Vorgehen](https://github.com/cbm-instructions/bits-please/blob/master/Controller/README.md)
 
