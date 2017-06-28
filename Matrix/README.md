@@ -1,6 +1,7 @@
 ### Matrix
 1. Lasercutter Zuschnitte anlegen (3 Platten a 60x45cm)
 [Illustratordateien](https://github.com/cbm-instructions/bits-please/blob/master/Matrix/Zuschnitt_Matrix.zip)
+Dabei darauf achten, dass der Laser stark genug eingestellt ist, sonst können beim Ausbrechen Teile kaputt gehen.
 
 <img src="Zuschnitt_1.jpg" height="300">
 
