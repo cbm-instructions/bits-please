@@ -134,6 +134,76 @@ byte image_mario_stern[16][16]={
   {3,3,3,0,0,0,0,0,0,0,0,0,0,3,3,3}
 };
 
+// numbers which are displayed
+byte numbers[11][5][3] = {
+  { {1,1,1},
+    {1,0,1},
+    {1,0,1},
+    {1,0,1},
+    {1,1,1}},
+    
+  { {0,1,0},
+    {0,1,0},
+    {0,1,0},
+    {0,1,0},
+    {0,1,0}},
+    
+  { {1,1,1},
+    {0,0,1},
+    {1,1,1},
+    {1,0,0},
+    {1,1,1}},
+    
+  { {1,1,1},
+    {0,0,1},
+    {1,1,1},
+    {0,0,1},
+    {1,1,1}},
+    
+  { {1,0,1},
+    {1,0,1},
+    {1,1,1},
+    {0,0,1},
+    {0,0,1}},
+    
+  { {1,1,1},
+    {1,0,0},
+    {1,1,1},
+    {0,0,1},
+    {1,1,1}},
+    
+  { {1,1,1},
+    {1,0,0},
+    {1,1,1},
+    {1,0,1},
+    {1,1,1}},
+    
+  { {1,1,1},
+    {0,0,1},
+    {0,0,1},
+    {0,0,1},
+    {0,0,1}},
+    
+  { {1,1,1},
+    {1,0,1},
+    {1,1,1},
+    {1,0,1},
+    {1,1,1}},
+    
+  { {1,1,1},
+    {1,0,1},
+    {1,1,1},
+    {0,0,1},
+    {1,1,1}},
+  
+  // for convenience purposes: 10 -> 9 at end of game
+  { {1,1,1},
+    {1,0,1},
+    {1,1,1},
+    {0,0,1},
+    {1,1,1}}
+}; 
+
 // debouncing
 int buttonState[4];
 int lastButtonState[4] = {LOW, LOW, LOW, LOW};
@@ -236,7 +306,7 @@ void loop() {
   // should be removed for further use
   if(inactivityCounter > 300) {
     demoCounter++;
-    if(demoCounter > 40) {
+    if(demoCounter > 80) {
       myFill(0);
       mode = (mode + 1) % 8;
       demoCounter = 0;
@@ -471,8 +541,6 @@ void startTetris() {
   newblock();
   paintTetrismap();
   tetrisLoop();
-  Serial.println(HIGH);
-  Serial.println(LOW);
 }
 
 // tetris' own loop
@@ -483,7 +551,6 @@ void tetrisLoop() {
   reading[1] = digitalRead(LEFT);
   reading[2] = digitalRead(DOWN);
   reading[3] = digitalRead(TURN);
-  Serial.print(reading[0]); Serial.print(reading[1]); Serial.print(reading[2]); Serial.println(reading[3]);
   for(int i = 0; i < 4; i++) {
     if (reading[i] != lastButtonState[i]) {
       lastDebounceTime[i] = millis();
@@ -496,17 +563,17 @@ void tetrisLoop() {
       if (reading[i] != buttonState[i]) {
         buttonState[i] = reading[i];
         
-        if(i == 0 && buttonState[i] == HIGH) {
-          left();
-        } else if(i == 1 && buttonState[i] == HIGH) {
-          right();
-        } else if(i == 3 && buttonState[i] == HIGH) {
+        if(i == 3 && buttonState[i] == HIGH) {
           turn();
         }
       }
       
       if(i == 2 && buttonState[i] == HIGH) {
         down();
+      } else if(i == 0 && buttonState[i] == HIGH) {
+        left();
+      } else if(i == 1 && buttonState[i] == HIGH) {
+        right();
       }
     }
     
@@ -770,76 +837,6 @@ byte scorePlayer1;
 byte scorePlayer2;
 byte pongSpeed;
 
-// numbers which are displayed
-byte numbers[11][5][3] = {
-  { {1,1,1},
-    {1,0,1},
-    {1,0,1},
-    {1,0,1},
-    {1,1,1}},
-    
-  { {0,1,0},
-    {0,1,0},
-    {0,1,0},
-    {0,1,0},
-    {0,1,0}},
-    
-  { {1,1,1},
-    {0,0,1},
-    {1,1,1},
-    {1,0,0},
-    {1,1,1}},
-    
-  { {1,1,1},
-    {0,0,1},
-    {1,1,1},
-    {0,0,1},
-    {1,1,1}},
-    
-  { {1,0,1},
-    {1,0,1},
-    {1,1,1},
-    {0,0,1},
-    {0,0,1}},
-    
-  { {1,1,1},
-    {1,0,0},
-    {1,1,1},
-    {0,0,1},
-    {1,1,1}},
-    
-  { {1,1,1},
-    {1,0,0},
-    {1,1,1},
-    {1,0,1},
-    {1,1,1}},
-    
-  { {1,1,1},
-    {0,0,1},
-    {0,0,1},
-    {0,0,1},
-    {0,0,1}},
-    
-  { {1,1,1},
-    {1,0,1},
-    {1,1,1},
-    {1,0,1},
-    {1,1,1}},
-    
-  { {1,1,1},
-    {1,0,1},
-    {1,1,1},
-    {0,0,1},
-    {1,1,1}},
-  
-  // for convenience purposes: 10 -> 9 at end of game
-  { {1,1,1},
-    {1,0,1},
-    {1,1,1},
-    {0,0,1},
-    {1,1,1}}
-}; 
-
 // initialize Pong
 void startPong() {
   posPlayer1 = 3;
@@ -924,9 +921,9 @@ void gameOverPong(byte player) {
   if(player == 2) {
     for(byte i = 0; i < 255; i++) {
       uint32_t color = strip_1.Color(random(255),random(255),random(255));
-      myDraw(0, posPlayer2 - 1, color);
-      myDraw(0, posPlayer2, color);
-      myDraw(0, posPlayer2 + 1, color);
+      myDraw(15, posPlayer2 - 1, color);
+      myDraw(15, posPlayer2, color);
+      myDraw(15, posPlayer2 + 1, color);
       drawScore(color, false, true);
       myShow();
     }
