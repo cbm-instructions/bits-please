@@ -68,7 +68,7 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 
 ### Tischunterkonstruktion
 
-<img src="Bilder/IMG_20170527_123424.jpg" height="300">
+<img src="Bilder/empty_table.jpg" height="300">
 
 Bauen des Tischs: [Anleitung](https://github.com/cbm-instructions/bits-please/blob/master/Tisch/README.md)
 
