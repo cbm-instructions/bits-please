@@ -19,6 +19,13 @@ An den Rändern die Folie ab machen, aber nicht komplett.
 Zuerst gegenüber, dann die anderen.
 Noch nicht komplett anziehen, erst wenn alle Leisten verschraubt sind.
 
-### 6. Zack fertig
+<img src="Leisten.jpg" height="300">
+
+### 6. Feilen
+Alle abstehenden Kanten abfeilen.
+
+<img src="Feilen.jpg" height="300">
+
+### 7. Zack fertig
 
 <img src="Finish.jpg" height="300">
