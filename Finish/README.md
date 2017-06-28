@@ -13,6 +13,8 @@
 ### 4. Plexiglas aufsetzen
 An den Rändern die Folie ab machen, aber nicht komplett.
 
+<img src="Platte.jpg" height="300">
+
 ### 5. Leisten anschrauben
 Zuerst gegenüber, dann die anderen.
 Noch nicht komplett anziehen, erst wenn alle Leisten verschraubt sind.
