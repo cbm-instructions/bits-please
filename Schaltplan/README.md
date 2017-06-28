@@ -7,4 +7,4 @@ Der Schaltplan ist hier zu finden: [Fritzing-File](https://github.com/cbm-instru
 
 
 
-img src="Verkabelung.jpg" height="300">
+<img src="Verkabelung.jpg" height="300">
