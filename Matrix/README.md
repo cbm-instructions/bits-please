@@ -27,7 +27,7 @@ Nicht zu viel Heißkleber verwenden, da man sonst einzeln den Überschuss entfer
 
 ### 5. Matrizen in den Tisch einsetzen
 
-<img src="Matrizen_offen.jpg" height="300">
+<img src="Matrix_offen.jpg" height="300">
 <img src="Matrizen_einsetzen.jpg" height="300">
 
 ### 6. Zur idealen Diffusion zwei 55cm Brotpapierbahnen (weiß) zusammenkleben und zwischen die beiden Matrizen legen
