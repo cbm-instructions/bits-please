@@ -25,7 +25,7 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 * Diverse Kabel
 * Kabelbinder
 * Lötzinn
-* Holzleim
+* Holzleim (Im Idealfall schnelltrocknend)
  
 ### Werkzeuge
 * Bohrer
@@ -59,7 +59,7 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
  
 ### Controller
 * Hochdichte Faserplatte (600mm x 45mm x 3mm)
-* 8x Buttons
+* 8x 16mm Ø Buttons (Bspw von [Exp-Tech](http://www.exp-tech.de/16mm-panel-mount-momentary-pushbutton-yellow))
 * 14 Magneten (5mm x 2,5mm x 2,5mm)
 * 2 USB Kabel (2m)
 
