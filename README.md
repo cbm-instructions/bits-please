@@ -91,10 +91,6 @@ Anfertigen des Controllers: [Anleitung](https://github.com/cbm-instructions/bits
 
 Anleitung zur Elektronik: [Anleitung](https://github.com/cbm-instructions/bits-please/blob/master/Schaltplan/README.md)
 
-<img src="Schaltplan/Verkabelung.jpg" height="300">
-
-Der Schaltplan ist hier zu finden: [Fritzing-File](https://github.com/cbm-instructions/bits-please/blob/master/Schaltplan/Schaltplan.fzz), [Bild](https://github.com/cbm-instructions/bits-please/blob/master/Schaltplan/Schaltplan.png)
-
 ### Finish
 
 <img src="Finish/Finish.jpg" height="300">
