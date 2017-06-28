@@ -86,7 +86,7 @@ Anfertigen der Matrix mit dem Lasercutter: [Anleitung](https://github.com/cbm-in
 Anfertigen des Controllers: [Anleitung](https://github.com/cbm-instructions/bits-please/blob/master/Controller/README.md)
 
 ### Elektronik
-...
+Der Schaltplan ist hier zu finden: [Fritzing-File](https://github.com/cbm-instructions/bits-please/tree/master/Schaltplan/Schaltplan.fzz), [Bild](https://github.com/cbm-instructions/bits-please/tree/master/Schaltplan.png)
 
 ### Finish
 ... Deckel des Tischs, Plexiglasplatte etc ...
@@ -97,6 +97,6 @@ Die verwendete .ino Datei gibt's hier: [CBM.ino](https://github.com/cbm-instruct
 Wer nur die Umsetzungen der einzelnen Spiele möchte findet diese hier:<br>
 
 **Spiele**<br>
-* Pong: [Pong](https://github.com/cbm-instructions/bits-please/blob/master/Code/Pong/Pong)<br>
-* Tetris: [Tetris](https://github.com/cbm-instructions/bits-please/blob/master/Code/Tetris/Tetris)<br>  
-* Snake: [Snake](https://github.com/cbm-instructions/bits-please/blob/master/Code/Snake/Snake)<br>
+* Pong: [Pong](https://github.com/cbm-instructions/bits-please/blob/master/Code/Pong/Pong.c)<br>
+* Tetris: [Tetris](https://github.com/cbm-instructions/bits-please/blob/master/Code/Tetris/Tetris.c)<br>  
+* Snake: [Snake](https://github.com/cbm-instructions/bits-please/blob/master/Code/Snake/Snake.c)<br>
