@@ -86,7 +86,7 @@ Anfertigen der Matrix mit dem Lasercutter: [Anleitung](https://github.com/cbm-in
 Anfertigen des Controllers: [Anleitung](https://github.com/cbm-instructions/bits-please/blob/master/Controller/README.md)
 
 ### Elektronik
-Der Schaltplan ist hier zu finden: [Fritzing-File](https://github.com/cbm-instructions/bits-please/tree/master/Schaltplan/Schaltplan.fzz), [Bild](https://github.com/cbm-instructions/bits-please/tree/master/Schaltplan.png)
+Der Schaltplan ist hier zu finden: [Fritzing-File](https://github.com/cbm-instructions/bits-please/blob/master/Schaltplan/Schaltplan.fzz), [Bild](https://github.com/cbm-instructions/bits-please/blob/master/Schaltplan.png)
 
 ### Finish
 ... Deckel des Tischs, Plexiglasplatte etc ...
