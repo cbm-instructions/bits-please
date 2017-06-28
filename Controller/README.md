@@ -8,7 +8,7 @@
 
 <img src="Lasercutter.jpg" height="300">
 
-### 3. Die verschiedenen Schichten und verleimen.
+### 3. Die verschiedenen Schichten verleimen.
 Der Boden: Teil 2 muss mit Teil 10 verleimt werden.
 Der Oberteil muss (in Reihenfolge) verleimt werden aus den Teilen:
 - Teil 1
@@ -24,10 +24,12 @@ Nach dem Verleimen mit Büchern beschweren oder mit Schraubzwingen zusammendrüc
 
 <img src="Schichten.jpg" height="300">
 
-### 4. Die Aussparungen mit Magneten bestücken (dabei auf die Polarisation achten)
+### 4. Die Aussparungen mit Magneten bestücken
 - 6 Stück sind dafür gedacht, den Controller zusammen zu halten
 - 8 Stück um die beiden Böden zusammen zu halten
-(Im Bild nur 4 an den Seiten zu sehen, da dies erst nachträglich geändert wurde)
+- Unbedingt die Richtung der Polarisation beachten (Magnetenpaare vorher aneinander legen)
+
+(Im Bild nur 4 an den Seiten zu sehen, da dies erst später geändert wurde)
 
 <img src="Magnete.jpg" height="300">
 
