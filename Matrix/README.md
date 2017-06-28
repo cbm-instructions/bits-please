@@ -30,6 +30,11 @@ Nicht zu viel Heißkleber verwenden, da man sonst einzeln den Überschuss entfer
 <img src="Matrix_offen.jpg" height="300">
 <img src="Matrizen_einsetzen.jpg" height="300">
 
-### 6. Zur idealen Diffusion zwei 55cm Brotpapierbahnen (weiß) zusammenkleben und zwischen die beiden Matrizen legen
+### 6. Zur idealen Diffusion zwei 55cm Brotpapierbahnen (weiß) zusammenkleben
 
 <img src="Brotpapier.jpg" height="300">
+
+### 7. Brotpapier zwischen beide Matrizen einlegen
+
+<img src="Matrix_Brotpapier.jpg" height="300">
+<img src="Matrix_komplett.jpg" height="300">
