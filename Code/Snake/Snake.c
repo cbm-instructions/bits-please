@@ -53,10 +53,10 @@ void startSnake() {
 // snake's own loop
 void snakeLoop() {
   // Input handling
-  reading[0] = digitalRead(LEFT);
-  reading[1] = digitalRead(RIGHT);
-  reading[2] = digitalRead(DOWN);
-  reading[3] = digitalRead(TURN);
+  reading[0] = digitalRead(DOWN);
+  reading[1] = digitalRead(TURN);
+  reading[2] = digitalRead(LEFT);
+  reading[3] = digitalRead(RIGHT);
   for(int i = 0; i < 4; i++) {
     if (reading[i] != lastButtonState[i]) {
       lastDebounceTime[i] = millis();
