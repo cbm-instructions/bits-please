@@ -89,7 +89,8 @@ Anfertigen des Controllers: [Anleitung](https://github.com/cbm-instructions/bits
 Der Schaltplan ist hier zu finden: [Fritzing-File](https://github.com/cbm-instructions/bits-please/blob/master/Schaltplan/Schaltplan.fzz), [Bild](https://github.com/cbm-instructions/bits-please/blob/master/Schaltplan/Schaltplan.png)
 
 ### Finish
-... Deckel des Tischs, Plexiglasplatte etc ...
+
+Fertigstellen des Tischs: [Anleitung](https://github.com/cbm-instructions/bits-please/blob/master/Finish/README.md)
 
 ### Code
 Die verwendete .ino Datei gibt's hier: [CBM.ino](https://github.com/cbm-instructions/bits-please/blob/master/Code/CBM.ino)<br>
