@@ -65,7 +65,7 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 
 ## Bauanleitung
 
-### Tisch
+### Tischunterkonstruktion
 
 <img src="Bilder/IMG_20170527_123424.jpg" height="300">
 
@@ -86,6 +86,9 @@ Anfertigen des Controllers: [Anleitung](https://github.com/cbm-instructions/bits
 
 ### Elektronik
 ...
+
+### Finish
+... Deckel des Tischs, Plexiglasplatte etc ...
 
 ### Code
 Die verwendete .ino Datei gibt's hier: [CBM.ino](https://github.com/cbm-instructions/bits-please/blob/master/Code/CBM.ino)<br>
