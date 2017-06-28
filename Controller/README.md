@@ -31,7 +31,7 @@ Nach dem Verleimen mit Büchern beschweren oder mit Schraubzwingen zusammendrüc
 
 (Im Bild nur 4 an den Seiten zu sehen, da dies erst später geändert wurde)
 
-<img src="Magnete.jpg" height="300">
+<img src="Magneten.jpg" height="300">
 
 ### 5. Buttons einsetzen
 
