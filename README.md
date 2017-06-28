@@ -93,7 +93,7 @@ Der Schaltplan ist hier zu finden: [Fritzing-File](https://github.com/cbm-instru
 
 ### Finish
 
-<img src="Controller/fertig.jpg" height="300">
+<img src="Finish/Finish.jpg" height="300">
 
 Fertigstellen des Tischs: [Anleitung](https://github.com/cbm-instructions/bits-please/blob/master/Finish/README.md)
 
