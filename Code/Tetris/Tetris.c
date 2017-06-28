@@ -68,8 +68,8 @@ void startTetris() {
 void tetrisLoop() {
   // Input handling
   
-  reading[0] = digitalRead(LEFT);
-  reading[1] = digitalRead(RIGHT);
+  reading[0] = digitalRead(RIGHT);
+  reading[1] = digitalRead(LEFT);
   reading[2] = digitalRead(DOWN);
   reading[3] = digitalRead(TURN);
   for(int i = 0; i < 4; i++) {
@@ -84,15 +84,17 @@ void tetrisLoop() {
       if (reading[i] != buttonState[i]) {
         buttonState[i] = reading[i];
         
-        if(i == 0 && buttonState[i] == HIGH) {
-          left();
-        } else if(i == 1 && buttonState[i] == HIGH) {
-          right();
-        } else if(i == 2 && buttonState[i] == HIGH) {
-          down();
-        } else if(i == 3 && buttonState[i] == HIGH) {
+        if(i == 3 && buttonState[i] == HIGH) {
           turn();
         }
+      }
+      
+      if(i == 2 && buttonState[i] == HIGH) {
+        down();
+      } else if(i == 0 && buttonState[i] == HIGH) {
+        left();
+      } else if(i == 1 && buttonState[i] == HIGH) {
+        right();
       }
     }
     
@@ -114,6 +116,7 @@ void tetrisLoop() {
   }
 }
 
+// turn the block
 void turn() {
   byte tempturnState = turnState;
   turnState = (turnState + 1) % 4;
@@ -126,6 +129,7 @@ void turn() {
   }
 }
 
+// move block to the left
 void left() {
   if(blockX>0) {
     if (collide(blockX - 1, blockY, blockType, turnState) == 0) {
@@ -136,6 +140,7 @@ void left() {
   }
 }
 
+// move block to the right
 void right() {
   if(blockX<15) {
     if (collide(blockX + 1, blockY, blockType, turnState) == 0) {
@@ -146,6 +151,7 @@ void right() {
   }
 }
 
+// move block down (quicker)
 void down() {
   if (collide(blockX, blockY + 1, blockType, turnState) == 0) {
     clearActiveBlock();
