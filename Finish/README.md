@@ -4,7 +4,11 @@
 
 ### 2. Löcher bohren
 
+<img src="Bohren.jpg" height="300">
+
 ### 3. Löcher senken
+
+<img src="Senken.jpg" height="300">
 
 ### 4. Plexiglas aufsetzen
 An den Rändern die Folie ab machen, aber nicht komplett.
