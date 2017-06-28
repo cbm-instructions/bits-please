@@ -55,7 +55,7 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 
 ### Matrix
 * 3x Hochdichte Faserplatte (600mm x 45mm x 3mm)
-* LED Stripes (60 LED's / m) mit insgesamt 512 LED's auf 16 Stripes a' 32 LED's aufgeteilt
+* LED Stripes (60 LED's / m) zugeschnitten zu 16 Stripes a' 32 LED's 
  
 ### Controller
 * Hochdichte Faserplatte (600mm x 45mm x 3mm)
