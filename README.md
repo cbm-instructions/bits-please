@@ -46,6 +46,7 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 * Arduino Mega
 * Netzteil (5v, 30A)
 * Stromkabel Schuko auf Kaltgerätestecker
+* 2x Female USB Kabel
 
 ### Tisch
 * Vierkantholz (34mm x 34mm)
