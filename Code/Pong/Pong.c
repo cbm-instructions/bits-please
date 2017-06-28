@@ -9,76 +9,6 @@ byte scorePlayer1;
 byte scorePlayer2;
 byte pongSpeed;
 
-// numbers which are displayed
-byte numbers[11][5][3] = {
-  { {1,1,1},
-    {1,0,1},
-    {1,0,1},
-    {1,0,1},
-    {1,1,1}},
-    
-  { {0,1,0},
-    {0,1,0},
-    {0,1,0},
-    {0,1,0},
-    {0,1,0}},
-    
-  { {1,1,1},
-    {0,0,1},
-    {1,1,1},
-    {1,0,0},
-    {1,1,1}},
-    
-  { {1,1,1},
-    {0,0,1},
-    {1,1,1},
-    {0,0,1},
-    {1,1,1}},
-    
-  { {1,0,1},
-    {1,0,1},
-    {1,1,1},
-    {0,0,1},
-    {0,0,1}},
-    
-  { {1,1,1},
-    {1,0,0},
-    {1,1,1},
-    {0,0,1},
-    {1,1,1}},
-    
-  { {1,1,1},
-    {1,0,0},
-    {1,1,1},
-    {1,0,1},
-    {1,1,1}},
-    
-  { {1,1,1},
-    {0,0,1},
-    {0,0,1},
-    {0,0,1},
-    {0,0,1}},
-    
-  { {1,1,1},
-    {1,0,1},
-    {1,1,1},
-    {1,0,1},
-    {1,1,1}},
-    
-  { {1,1,1},
-    {1,0,1},
-    {1,1,1},
-    {0,0,1},
-    {1,1,1}},
-  
-  // for convenience purposes: 10 -> 9 at end of game
-  { {1,1,1},
-    {1,0,1},
-    {1,1,1},
-    {0,0,1},
-    {1,1,1}}
-}; 
-
 // initialize Pong
 void startPong() {
   posPlayer1 = 3;
@@ -113,13 +43,13 @@ void pongLoop() {
     if ((millis() - lastDebounceTime[i]) > debounceDelay+5) {
       buttonState[i] = reading[i];
       if(i == 0 && buttonState[i] == HIGH) {
-          posPlayer1 = max(0, posPlayer1 - 1);
+          posPlayer2 = max(1, posPlayer2 - 1);
         } else if(i == 1 && buttonState[i] == HIGH) {
-          posPlayer2 = max(0, posPlayer2 - 1);
+          posPlayer1 = max(1, posPlayer1 - 1);
         } else if(i == 2 && buttonState[i] == HIGH) {
-          posPlayer1 = min(14, posPlayer1 + 1);
-        } else if(i == 3 && buttonState[i] == HIGH) {
           posPlayer2 = min(14, posPlayer2 + 1);
+        } else if(i == 3 && buttonState[i] == HIGH) {
+          posPlayer1 = min(14, posPlayer1 + 1);
         }
     }
     
@@ -163,9 +93,9 @@ void gameOverPong(byte player) {
   if(player == 2) {
     for(byte i = 0; i < 255; i++) {
       uint32_t color = strip_1.Color(random(255),random(255),random(255));
-      myDraw(0, posPlayer2 - 1, color);
-      myDraw(0, posPlayer2, color);
-      myDraw(0, posPlayer2 + 1, color);
+      myDraw(15, posPlayer2 - 1, color);
+      myDraw(15, posPlayer2, color);
+      myDraw(15, posPlayer2 + 1, color);
       drawScore(color, false, true);
       myShow();
     }
