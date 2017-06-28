@@ -54,11 +54,11 @@ Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreat
 * Spaxschrauben
 
 ### Matrix
-* 3x Hochdichte Faserplatte (3mm dick a 60cm x 45cm)
-* LED Stripes mit insgesamt 512 LED's auf 16 Stripes a' 32 LED's aufgeteilt
+* 3x Hochdichte Faserplatte (600mm x 45mm x 3mm)
+* LED Stripes (60 LED's / m) mit insgesamt 512 LED's auf 16 Stripes a' 32 LED's aufgeteilt
  
 ### Controller
-* Hochdichte Faserplatte (3mm dick a 60cm x 45cm)
+* Hochdichte Faserplatte (600mm x 45mm x 3mm)
 * 8x Buttons
 * 14 Magneten (5mm x 2,5mm x 2,5mm)
 * 2 USB Kabel (2m)
