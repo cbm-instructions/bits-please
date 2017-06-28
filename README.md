@@ -9,14 +9,14 @@ Der PlayTable kann klassische Arcade-Games wie Tetris oder Pong aufweisen oder e
 Mit den zwei dazugehörigen Controllern macht das interagieren des Playtable gleich viel mehr Spaß!
 
 ### Challenge
-Die Welt ist immer im wandel und entwickelt sich immer weiter. So kommen auch neue Begriffe zu stande wie “Smart City”, der in aller Munde ist. Demzufolge soll es Universitäten geben die von denen man behaupten kann sie seien eine “Smart University”. Die Hochschule Mannheim soll natürlich auch mit der Zeit gehen, weswegen uns eine Challange gesetzt wurde.
+Die Welt ist immer im Wandel und entwickelt sich immer weiter. So kommen auch neue Begriffe zu stande wie “Smart City”, der in aller Munde ist. Demzufolge soll es Universitäten geben, von denen man behaupten kann, dass sie eine “Smart University” sind. Die Hochschule Mannheim soll natürlich auch mit der Zeit gehen, weswegen uns die folgende Challange gestellt wurde:
  
 **Wie könnten Menschen in der„Smart HS Mannheim“ durch deren intelligente Geräte und Objekte dabei unterstützt werden,angenehmer und spielerischer zu arbeiten?**
  
-Weswegen wir uns für die Entwicklung eines “Smart Furniture” entschieden haben, der PlayTable.
+Aus diesem Grund haben wir uns für die Entwicklung eines “Smart Furniture” entschieden, nämlich für die Entwicklung des PlayTables.
 
 ### Point of View
-Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreativer zu gestalten. 
+Wie können wir den Studierenden helfen den Hochschulaltag entspannter und kreativer zu gestalten?
 
 ## Material und Werkzeug
  
