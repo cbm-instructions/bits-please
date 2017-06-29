@@ -6,6 +6,8 @@ http://fritzing.org/download/
 
 Der Schaltplan ist hier zu finden: [Fritzing-File](https://github.com/cbm-instructions/bits-please/blob/master/Schaltplan/Schaltplan.fzz), [Bild](https://github.com/cbm-instructions/bits-please/blob/master/Schaltplan/Schaltplan.png)
 
-
+<img src="Netzteil.png" height="300">
+Bei der Verwendung eines gewöhnlichen Computer Netzteils, werden die nicht verwendeten Kabel entfernt.
 
 <img src="Verkabelung.jpg" height="300">
+
