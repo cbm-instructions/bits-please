@@ -57,7 +57,7 @@ Wie können wir den Studierenden helfen den Hochschulalltag entspannter und krea
 * 4 x Widerstände 1.5K Ohm
 
 ### Tisch
-* Vierkantholz (34mm x 34mm) benötogte Länge insgesamt 10 x 65 cm
+* Kantholz (34mm x 34mm) benötogte Länge insgesamt 10 x 65 cm
 * Spanplatte(65cm x 65cm , Stärke 12mm)
 * Plexiglasplatte (65cm x 65cm,Lichtdurchlässigkeit 79%)
 * Spaxschrauben 4mm x 60 mm (Für Rahmen)
