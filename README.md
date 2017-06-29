@@ -1,6 +1,6 @@
 # bits-please | PlayTable
 <img src="https://raw.githubusercontent.com/cbm-instructions/bits-please/master/Bilder/bits_please.png" height="300" width="300">
-<img src="https://github.com/cbm-instructions/bits-please/blob/master/Bilder/Animation.gif">
+<img style="float: right;" src="https://github.com/cbm-instructions/bits-please/blob/master/Bilder/Animation.gif">
 
 
 ## Einleitung
