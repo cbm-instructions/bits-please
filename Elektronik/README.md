@@ -8,7 +8,7 @@ http://fritzing.org/download/
 Der Schaltplan ist hier zu finden: [Fritzing-File](https://github.com/cbm-instructions/bits-please/blob/master/Schaltplan/Schaltplan.fzz), [Bild](https://github.com/cbm-instructions/bits-please/blob/master/Schaltplan/Schaltplan.png)
 
 ## Ansteuerung der LED Stripes
-Um alle 16 LED-Stripes ansteuern zu können müssen diese zu vier Viererblöcken mit je 4x32 LED'S verlötet werden. Diese viererblöcke werden jeweils über einen Arduino Ausgang, eine 5V Spannungsversorgung und ein Masserkabel verkabelt.(Siehe Schaltplan)
+Um alle 16 LED-Stripes ansteuern zu können müssen diese zu vier Viererblöcken mit je 4x32 LED'S(32 LED's = 1 LED-Stripe) verlötet werden. Diese viererblöcke werden jeweils über einen Arduino Ausgang, eine 5V Spannungsversorgung und ein Masserkabel verdrahtet.(Siehe Schaltplan)
 
 <img src="Ansteuerung.jpg" height="300"><br>
 
@@ -30,7 +30,7 @@ Bei der Verwendung eines ATX Computer Netzteils, werden die nicht verwendeten Ka
 
 <img src="Stromschalter.jpg" height="300"><br>
 
-Die 
+Die verlöteten Kabel mithilfe von Klebesockel und Kabelbinder an der Tisch Unterseite montieren. Netzteil an unterseite schrauben oder festkleben. Arduino ebenfalls festkleben. 
 
 <img src="Verkabelung.jpg" height="300"><br>
 
