@@ -2,6 +2,8 @@
 
 ### 1. L Leisten zuschneiden
 
+<img src="Sägen.jpg" height="300">
+
 ### 2. Löcher bohren
 
 <img src="Bohren.jpg" height="300">
