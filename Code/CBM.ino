@@ -9,7 +9,6 @@
  #define PSTR // Make Arduino Due happy
 #endif
 
-#define PIN 6
 #define SIZE 16
 #define WHITE strip_1.Color(255,255,255)
 #define RED strip_1.Color(255,0,0)
@@ -19,10 +18,15 @@
 #define BLUE strip_1.Color(0,0,255)
 #define MAGENTA strip_1.Color(255,0,255)
 #define MATRIX_GREEN strip_1.Color(0,253,0)
+// which pins are connected to which controls/led strips
 #define RIGHT 8
 #define LEFT 10
 #define DOWN 11
 #define TURN 9
+#define STRIP1 4
+#define STRIP2 5
+#define STRIP3 6
+#define STRIP4 7
 
 //Image Code colors
 #define MARIO_RED strip_1.Color(255,10,10)
@@ -33,10 +37,16 @@
 //Image Stern colors
 #define MARIO_STERN_INNENGELB strip_1.Color(255,255,51)
 
-Adafruit_NeoPixel strip_1 = Adafruit_NeoPixel(128, 4, NEO_GRB + NEO_KHZ800);
-Adafruit_NeoPixel strip_2 = Adafruit_NeoPixel(128, 5, NEO_GRB + NEO_KHZ800);
-Adafruit_NeoPixel strip_3 = Adafruit_NeoPixel(128, 6, NEO_GRB + NEO_KHZ800);
-Adafruit_NeoPixel strip_4 = Adafruit_NeoPixel(128, 7, NEO_GRB + NEO_KHZ800);
+#define PONG_WIN_SCORE 5 // don't set this over 9
+#define MAX_PONG_SPEED 2 // defines the delay in milliseconds between each calculated frame means: lower number, faster speed
+#define SNAKE_START_SPEED 30 // if snake is too slow for you set this number lower to set a faster starting speed
+#define ENABLE_DEMO_MODE 1 // set to 0 if you want to disable the automatic switching through modes
+#define TABLE_BRIGHTNESS 100 // you can set this between 0 (not so useful) and 100 (awesome!). Will reduce power usage.
+
+Adafruit_NeoPixel strip_1 = Adafruit_NeoPixel(128, STRIP1, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel strip_2 = Adafruit_NeoPixel(128, STRIP2, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel strip_3 = Adafruit_NeoPixel(128, STRIP3, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel strip_4 = Adafruit_NeoPixel(128, STRIP4, NEO_GRB + NEO_KHZ800);
 
 // Images
 byte image_pong[16][16]={
@@ -213,16 +223,16 @@ unsigned long debounceDelay = 5;
 
 void setup() {
   strip_1.begin();
-  strip_1.setBrightness(100);
+  strip_1.setBrightness(TABLE_BRIGHTNESS);
   strip_1.show(); // Initialize all pixels to 'off'
   strip_2.begin();
-  strip_2.setBrightness(100);
+  strip_2.setBrightness(TABLE_BRIGHTNESS);
   strip_2.show(); // Initialize all pixels to 'off'
   strip_3.begin();
-  strip_3.setBrightness(100);
+  strip_3.setBrightness(TABLE_BRIGHTNESS);
   strip_3.show(); // Initialize all pixels to 'off'
   strip_4.begin();
-  strip_4.setBrightness(100);
+  strip_4.setBrightness(TABLE_BRIGHTNESS);
   strip_4.show(); // Initialize all pixels to 'off'
   randomSeed(analogRead(0));
   pinMode(4, OUTPUT);
@@ -263,57 +273,66 @@ void loop() {
   }
   
   // Input handling
-  reading[0] = digitalRead(LEFT);
-  reading[1] = digitalRead(RIGHT);
-  reading[2] = digitalRead(DOWN);
-  for(int i = 0; i < 3; i++) {
-    if (reading[i] != lastButtonState[i]) {
-      lastDebounceTime[i] = millis();
-    }
-    if ((millis() - lastDebounceTime[i]) > debounceDelay) {
-      // whatever the reading is at, it's been there for longer
-      // than the debounce delay, so take it as the actual current state:
-  
-      // if the button state has changed:
-      if (reading[i] != buttonState[i]) {
-        buttonState[i] = reading[i];
-        
-        if(i == 0 && buttonState[i] == HIGH) {
-          mode = max(0,mode - 1);
-          inactivityCounter = 0;
-          myFill(0);
-        } else if(i == 1 && buttonState[i] == HIGH) {
-          mode = min(7, mode + 1);
-          inactivityCounter = 0;
-          myFill(0);
-        } else if(i == 2 && buttonState[i] == HIGH) { // start a game
-          if(mode == 5) {
-            startTetris();
-          } else if (mode == 6) {
-            startSnake();
-          } else if (mode == 7) {
-            startPong();
+  unsigned long time = millis();
+  while(millis() - time < 10) { // listen for button presses for 10 ms
+    reading[0] = digitalRead(LEFT);
+    reading[1] = digitalRead(RIGHT);
+    reading[2] = digitalRead(DOWN);
+    for(int i = 0; i < 3; i++) {
+      if (reading[i] != lastButtonState[i]) {
+        lastDebounceTime[i] = millis();
+      }
+      if ((millis() - lastDebounceTime[i]) > debounceDelay) {
+        // whatever the reading is at, it's been there for longer
+        // than the debounce delay, so take it as the actual current state:
+    
+        // if the button state has changed:
+        if (reading[i] != buttonState[i]) {
+          buttonState[i] = reading[i];
+          
+          if(i == 0 && buttonState[i] == HIGH) {
+            mode = max(0,mode - 1);
+            inactivityCounter = 0;
+            myFill(0);
+            time - 10;
+          } else if(i == 1 && buttonState[i] == HIGH) {
+            mode = min(7, mode + 1);
+            inactivityCounter = 0;
+            myFill(0);
+            time - 10;
+          } else if(i == 2 && buttonState[i] == HIGH) { // start a game
+            if(mode == 5) {
+              time - 10;
+              startTetris();
+            } else if (mode == 6) {
+              time - 10;
+              startSnake();
+            } else if (mode == 7) {
+              time - 10;
+              startPong();
+            }
+            inactivityCounter = 0;
           }
-          inactivityCounter = 0;
         }
       }
+      
+      lastButtonState[i] = reading[i];
     }
-    
-    lastButtonState[i] = reading[i];
   }
   
   // after a approx. 15 sec delay it will start to cycle through the mode to demonstrate the modes
   // should be removed for further use
-  if(inactivityCounter > 300) {
-    demoCounter++;
-    if(demoCounter > 80) {
-      myFill(0);
-      mode = (mode + 1) % 8;
-      demoCounter = 0;
+  if(ENABLE_DEMO_MODE) {
+    if(inactivityCounter > 300) {
+      demoCounter++;
+      if(demoCounter > 80) {
+        myFill(0);
+        mode = (mode + 1) % 8;
+        demoCounter = 0;
+      }
     }
+    inactivityCounter = min(1501, inactivityCounter + 1);
   }
-  inactivityCounter = min(1501, inactivityCounter + 1);
-  delay(10);
 }
 
 // Start screen for Pong
@@ -402,6 +421,12 @@ uint32_t Wheel(byte WheelPos) {
   return strip_1.Color(WheelPos * 3, 255 - WheelPos * 3, 0);
 }
 // END: Rainbow
+
+void theaterchase() {
+  for(int i = 0; i < 512; i++) {
+    myDraw()
+  }
+}
 
 // Draw Mario
 void drawImageMario() {
@@ -907,9 +932,9 @@ void pongLoop() {
   myShow();
   
   // is the game won?
-  if(scorePlayer1 > 9) {
+  if(scorePlayer1 > PONG_WIN_SCORE) {
     gameOverPong(1);
-  } else if(scorePlayer2 > 9) {
+  } else if(scorePlayer2 > PONG_WIN_SCORE) {
     gameOverPong(2);
   } else {
     pongLoop();
@@ -1099,7 +1124,7 @@ byte processPhysics() {
   } else if(posBallX == 0) { // player 2 scored
     return 2;
   } else {
-    pongSpeed = max(2,pongSpeed - 1);
+    pongSpeed = max(MAX_PONG_SPEED,pongSpeed - 1);
     return 0;
   }
 }
@@ -1145,7 +1170,7 @@ void startSnake() {
   snakeP2[2] = 1;
   snakeP2[3] = 1;
   
-  snakeSpeed = 30;
+  snakeSpeed = SNAKE_START_SPEED;
   
   gameOverSnakeFlag = false;
   drawCounter = 0;
