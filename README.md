@@ -44,15 +44,21 @@ Wie können wir den Studierenden helfen den Hochschulalltag entspannter und krea
  
 ### Elektronik
 * Arduino Mega
-* Netzteil (5v, 30A)
+* Netzteil 5v,30A z.B. ATX-Netzteil 300W 
 * Stromkabel Schuko auf Kaltgerätestecker
 * 2x Female USB Kabel
+* Schrumpfschlauch diverse Größen
+* Lötzinn bleifrei
+* Klebesockel
+* Kabelbinder
+* 4 x Widerstände 1.5K Ohm
 
 ### Tisch
-* Vierkantholz (34mm x 34mm)
+* Vierkantholz (34mm x 34mm) benötogte Länge insgesamt 10 x 65 cm
 * Spanplatte(65cm x 65cm , Stärke 12mm)
 * Plexiglasplatte (65cm x 65cm,Lichtdurchlässigkeit 79%)
-* Spaxschrauben
+* Spaxschrauben 4mm x 60 mm (Für Rahmen)
+* Spaxschrauben 3mm x 30 mm (Für Tischplatte)
 
 ### Matrix
 * 3x Hochdichte Faserplatte (600mm x 45mm x 3mm)
