@@ -1,7 +1,7 @@
 # bits-please | PlayTable
 <div>
 <img  style="float: right;" src="https://raw.githubusercontent.com/cbm-instructions/bits-please/master/Bilder/bits_please.png" height="200" width="200">
-<img style="float: right; width=200" src="https://github.com/cbm-instructions/bits-please/blob/master/Bilder/Animation.gif">
+<img style="float: right; height=50%" src="https://github.com/cbm-instructions/bits-please/blob/master/Bilder/Animation.gif">
 </div>
 
 ## Einleitung
