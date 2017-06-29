@@ -93,7 +93,7 @@ Anfertigen des Controllers: [Anleitung](https://github.com/cbm-instructions/bits
 
 ### Elektronik
 
-<img src="Schaltplan/Verkabelung.jpg" height="300">
+<img src="Elektronik/Verkabelung.jpg" height="300">
 
 Anleitung zur Elektronik: [Anleitung](https://github.com/cbm-instructions/bits-please/blob/master/Elektronik/README.md)
 
