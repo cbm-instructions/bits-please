@@ -34,3 +34,7 @@ Die verlöteten Kabel mithilfe von Klebesockel und Kabelbinder an der Tisch Unte
 
 <img src="Verkabelung.jpg" height="300"><br>
 
+Lötstellen und offene Kabelenden mit Schrumpfschlauch isolieren!
+
+<img src="Schrumpfschlauch.jpg" height="300"><br>
+
