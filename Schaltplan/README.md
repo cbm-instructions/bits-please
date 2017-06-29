@@ -4,7 +4,7 @@ http://fritzing.org/download/
 
 ### Stromversorgung 
 
-# AdaFruit NeoPixel am Arduino Mega
+### AdaFruit NeoPixel am Arduino Mega
 Auf die Stromversorgung der einzelnen Pixel muss geachtet werden. <br>
 Ein einzelner NeoPixel kann 20mA bis zu 60mA Strom ziehen, je nach der Einstellung in der Software.
 
